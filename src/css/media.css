@@ -1,0 +1,95 @@
+
+
+/* Small Devices, Tablets */
+@media only screen and (max-width : 768px) {
+	/*#zakaz2 {
+		width: 320px;
+		}*/
+		.navig {
+			margin-top: 10px;
+			order: 1;
+			flex-direction: column;
+			align-self: flex-start;
+		}
+		nav .navig .navig-icon {
+			display: block;
+			align-self: flex-start;
+		}
+		.navig img {
+			display: none;
+		}
+		nav .wrapper {
+			flex-direction: column;
+		}
+		.navig a {
+			display: none;
+		}
+		.navig button {
+			min-width: 280px;
+			width: 100%;
+			padding: 10px;
+			align-items: stretch;
+		}
+		body nav .tel {
+			text-align: center;
+		}
+		body .tabs {
+			flex-direction: column;
+			align-items: center;
+		}
+		body .vkladka1, body .vkladka3 {
+			flex-direction: column;
+		}
+		.korobki, .b3 .wrapper {
+			flex-direction: column;
+		}
+		.b6 .vkladka2 {
+			flex-direction: column;
+		}
+		.b6 .sprite6s {
+			display: none;
+		}
+		body .b6 .vkladka2 .sprite6 {
+			height: auto;
+		}
+		.b7 .skritiymedia {
+			display: none;
+		}
+		body .b5 p.b51 {
+			top: 140px;
+			left: 25%;
+		}
+		body .b5 p.b52 {
+			top: 270px;
+			left: 25%;
+		}
+		body .b5 p.b53 {
+			top: 420px;
+			left: 25%;
+		}
+		body .b5 p.b54 {
+			top: 540px;
+			left: 25%;
+		}
+		body .b5 p.b55 {
+			top: 690px;
+			left: 25%;
+		}
+		body form input {
+			width: 195px;
+		}
+		body form input:nth-child(2) {
+			width: 250px;
+		}
+/*	body .b8 .headRight {
+    width: 300px;
+    }*/
+    body .b3 {
+    	display: none;
+    }
+    .b7 .sl .vkladka2 > div {
+    	width: 200px;
+    }
+  }
+
+
